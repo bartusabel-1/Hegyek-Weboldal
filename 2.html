@@ -1,71 +1,122 @@
 <html>
- <head>
-  <title>
-    Elbrusz
-  </title>
- </head>
- 
- <body bgcolor="#DBBDB4"; leftmargin="200"; rightmargin="200">
-    <h1 style="text-align:center; font-family:'Impact', sans-serif; font-style: italic; color: brown;"> 
+<head>
+    <title>Elbrusz</title>
+    <meta charset="UTF-8">
 
-    -Elbrusz-
-    </h1>
-    
-    <br><br> 
-    <font color="red"> Magasság:  </font>
-     5642 m
-    <br><br>
-    <font color="red"> Ország:  </font>
-     Oroszország
-    <br><br>
-    <font color="red"> Hegység:  </font>
-     Nagy-Kaukázus
-    <br><br>
+    <style>
+        html { scroll-behavior: smooth; }
+        ::selection { background: darkolivegreen; color: white; }
 
-    <br>
-    Első megmászás:
-     <br>
-    <ol>
-        <li>Florence Crauford Grove</li>
-        <li>Frederick Gardner</li>
-        <li>Horace Walker</li>
-        <li>Peter Knubel</li>
-        <li>Ahija Szottajev</li>
-    </ol>
-    <br><br>
-     <a href="https://hu.wikipedia.org/wiki/Elbrusz">Wikipedia</a>
-    <br><br>
-    <br><br>
-    <p style="text-align: center;">
-    <img src="elbrus.jpg" alt="hiba a képmegjelenítés során" style="width:640px">
-    <br><br>
-    Számos mászóútvonal létezik a Mount Elbrusz csúcsának elérésére, amelyek többsége a Prielbruszje Nemzeti Parkon keresztül, annak délkeleti oldaláról közelíti meg a hegyet.
-    <br><br>
-    <img src="elbrus_ut.jpg" alt="hiba a képmegjelenítés során" style="width:640px">
-    <br><br>
-    <font color="green">1. Déli útvonal (Normál útvonal): </font>
-    <br>
-    A legkönnyebb, legbiztonságosabb és legnépszerűbb útvonal, a hegymászók 80-90%-a ezt választja.
-    <br>Főbb részletek: Az Azau-völgyből indul. Egy felvonórendszer visz fel a Garabashi menedékházakig („Hordók”) 3847 méteres magasságba. A csúcstámadás napján lánctalpas hómaróval (snowcat) akár a Pasztuhov-sziklákig (4600-4800 m) is fel lehet utazni, hogy lerövidítsd a mászási időt.
-    <br>Cél: A magasabb, Nyugati-csúcsra (5642 m) vezet.
-    <br><br>
-    <font color="green">2. Északi útvonal:</font>
-    <br>Az 1829-es legelső sikeres megmászás történelmi útvonala, amely igazi vadon élményt nyújt.
-    <br>Főbb részletek: Dzsili-Szu (Dzhily-Su) mellől indul. Itt nincsenek felvonók, menedékházak vagy lánctalpas gépek, így a teljes felszerelésedet magadnak kell vinned, és végig gyalog kell másznod az alaptábortól. A fizikai megterhelés miatt a sikerességi arány alacsonyabb (50% körüli).
-    <br>Cél: Gyakran a Keleti-csúcsot (5621 m) célozza meg, de a Nyugati is elérhető innen.
-    <br><br>
-    <font color="green">3. Keleti útvonal:</font>
-    <br>Kihívást jelentő, elszigetelt útvonal, amely teljes önellátást igényel.
-    <br><br>Főbb részletek: Körülbelül 10 napot vesz igénybe. A mászóknak minden tábori felszerelést és élelmet magukkal kell vinniük, mivel az útvonal mentén nincs kiépített infrastruktúra vagy állandó hegyimentő-szolgálat.
-    <br><br>
-    <font color="green">4. Nyugati útvonal:</font>
-    <br>A hegy legnehezebb és leginkább technikai útvonala.
-    <br>Főbb részletek: Haladó hegymászó tapasztalatot igényel, beleértve a meredek sziklamászást, a gleccsereken való átkelést és a kötélpartiban történő haladást.
-    <br><br>
-    </p>
-    <a href="1.html">Vissza</a>
-    <br>
-    <a href="3.html">Mont Blanc </a>
+        img {
+            transition: 0.4s;
+            border-radius: 10px;
+        }
 
- </body>
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 20px black;
+        }
+
+        a {
+            color: lightgreen;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 10px lightgreen;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body bgcolor="#6F86AE" leftmargin="200" rightmargin="200">
+
+<h1 style="text-align:center; font-family:Impact; font-style:italic; color:brown; text-shadow:3px 3px 5px black; letter-spacing:3px;">
+-Elbrusz-
+</h1>
+
+<hr style="width:60%; border:1px solid darkolivegreen;">
+
+<br><br>
+
+<font color="red">Magasság:</font> 5642 m
+<br><br>
+
+<font color="red">Ország:</font> Oroszország
+<br><br>
+
+<font color="red">Hegység:</font> Nagy-Kaukázus
+
+<br><br>
+
+Első megmászás:
+<br>
+
+<ol>
+    <li>Florence Crauford Grove</li>
+    <li>Frederick Gardner</li>
+    <li>Horace Walker</li>
+    <li>Peter Knubel</li>
+    <li>Ahija Szottajev</li>
+</ol>
+
+<br><br>
+
+<a href="https://hu.wikipedia.org/wiki/Elbrusz">Wikipedia</a>
+
+<br><br>
+
+<p style="text-align:center;">
+
+<img src="elbrus.jpg" alt="Elbrusz" style="width:640px">
+
+<br><br>
+
+Számos mászóútvonal létezik a Mount Elbrusz csúcsának elérésére, amelyek többsége a Prielbruszje Nemzeti Parkon keresztül, annak délkeleti oldaláról közelíti meg a hegyet.
+
+<br><br>
+
+<img src="elbrus_ut.jpg" alt="Elbrusz útvonal" style="width:640px">
+
+<br><br>
+
+<font color="green">1. Déli útvonal (Normál útvonal):</font>
+
+<br>
+A legkönnyebb és legnépszerűbb útvonal. Az Azau-völgyből indul, és felvonórendszer vezet a Garabashi menedékházakig.
+
+<br><br>
+
+<font color="green">2. Északi útvonal:</font>
+
+<br>
+Az 1829-es legelső sikeres megmászás történelmi útvonala, amely igazi vadon élményt nyújt.
+
+<br><br>
+
+<font color="green">3. Keleti útvonal:</font>
+
+<br>
+Kihívást jelentő, elszigetelt útvonal, amely teljes önellátást igényel.
+
+<br><br>
+
+<font color="green">4. Nyugati útvonal:</font>
+
+<br>
+A hegy egyik legnehezebb és leginkább technikai útvonala.
+
+</p>
+
+<br><br>
+
+<a href="1.html">Vissza</a>
+<br>
+<a href="3.html">Mont Blanc</a>
+
+<a href="#" style="position:fixed; bottom:20px; right:20px; background-color:darkolivegreen; color:white; padding:12px; border-radius:10px;">↑ Top</a>
+
+</body>
 </html>

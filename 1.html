@@ -1,61 +1,127 @@
 <html>
- <head>
-  <title>
-    Hegyek
-  </title>
+<head>
+    <title>Hegyek</title>
+    <meta charset="UTF-8">
 
- <body bgcolor="#6F86AE"; leftmargin="200"; rightmargin="200">
+    <style>
+        html { scroll-behavior: smooth; }
+        ::selection { background: darkolivegreen; color: white; }
 
-   
-    <h1 style="text-align:center; font-family:'Impact', sans-serif; font-style: italic; color: darkolivegreen;"> 
-      
-        Európa legmagasabb csúcsai
-    </h1>
+        img {
+            transition: 0.4s;
+            border-radius: 10px;
+        }
 
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 20px black;
+        }
 
-   <p style="text-align: center;">
-      
-      A Mount Elbrus, a Mont Blanc és a Dufourspitze Európa leghíresebb és legmagasabb hegycsúcsai közé tartoznak.
-      <br>Főbb összehasonlítások: Mount Elbrus: Az oroszországi Kaukázusban található, 5642 méter (18 510 láb) magas kialudt rétegvulkán, amelyet a "Hét Hegycsúcs" (Seven Summits) meghatározás szerint Európa legmagasabb hegyeként tartanak számon. Mont Blanc: A francia-olasz határon emelkedő, 4808 méter (15 774 láb) magas csúcs az Alpok és egyben Nyugat-Európa legmagasabb pontja.Dufourspitze: Svájcban, a Monte Rosa-masszívumban található 4634 méteres (15 200 láb) magasságával. Ez Svájc legmagasabb pontja és az Alpok második legmagasabb hegycsúcsa.
-   <br><br>
-   <div style="display: flex; gap: 150px;">
-      <img src="images.jpg" alt="hiba a képmegjelenítés során" style="height:440px">
-      <img src="csucsok.jpg" alt="hiba a képmegjelenítés során" style="height:440px">
-   </div>
-   <br><br>
-       <br>  
-      <table border="2"; style="text-align: center;">
-    <tr>
-   <td> Elbrusz </td>
-      <td>5642m </td>
-   </tr>
-   <tr>
-    <td>Mont Blanc</td>
-      <td>4808m</td>
-   </tr>
-      <td>Dufourspitze</td>
-      <td>4634m</td>
-   </tr>
-      <td>Dom</td>
-      <td>4545m</td>
-   </tr>
-      <td>Weisshorn</td>
-      <td>4506m</td>
-   </tr>
-      <td>Matterhorn</td>
-      <td>4478m</td>
-   </tr>
-   </table>
-   <br><br>
-   </p>
-    <a href="2.html">Elbrusz </a>
+        a {
+            color: lightgreen;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+            text-shadow: 0px 0px 10px lightgreen;
+            font-size: 18px;
+        }
+
+        td { padding: 10px; transition: 0.2s; }
+        tr:hover { background-color: darkolivegreen; color: white; }
+    </style>
+</head>
+
+<body bgcolor="#6F86AE" leftmargin="200" rightmargin="200">
+
+<h1 style="text-align:center; font-family:'Impact', sans-serif; font-style:italic; color:darkolivegreen; text-shadow:3px 3px 5px black; letter-spacing:3px;">
+    Európa legmagasabb csúcsai
+</h1>
+
+<hr style="width:60%; border:1px solid darkolivegreen;">
+
+<p style="text-align:center;">
+A Mount Elbrus, a Mont Blanc és a Dufourspitze Európa leghíresebb és legmagasabb hegycsúcsai közé tartoznak.
+<br>
+Főbb összehasonlítások: Mount Elbrus: Az oroszországi Kaukázusban található, 5642 méter magas kialudt rétegvulkán, amelyet a "Hét Hegycsúcs" (Seven Summits) meghatározás szerint Európa legmagasabb hegyeként tartanak számon.
+Mont Blanc: A francia-olasz határon emelkedő, 4808 méter magas csúcs az Alpok és egyben Nyugat-Európa legmagasabb pontja.
+Dufourspitze: Svájcban, a Monte Rosa-masszívumban található 4634 méteres magasságával.
+<br><br>
+
+<div style="display:flex; gap:50px; justify-content:center;">
+    <img src="images.jpg" alt="Elbrusz" style="height:440px">
+    <img src="csucsok.jpg" alt="Hegyek" style="height:440px">
+</div>
+
+<br><br>
+
+<table border="2" style="text-align:center; margin:auto;">
+<tr><td>Elbrusz</td><td>5642m</td></tr>
+<tr><td>Mont Blanc</td><td>4808m</td></tr>
+<tr><td>Dufourspitze</td><td>4634m</td></tr>
+<tr><td>Dom</td><td>4545m</td></tr>
+<tr><td>Weisshorn</td><td>4506m</td></tr>
+<tr><td>Matterhorn</td><td>4478m</td></tr>
+</table>
+
+<br><br>
+</p>
+
+<div style="text-align:center;">
+    <a href="2.html">Elbrusz</a>
     <br>
-    <a href="3.html">Mont Blanc </a>
+    <a href="3.html">Mont Blanc</a>
     <br>
-    <a href="4.html">Dufourspitze </a>
-    <br><br>
- </body>
+    <a href="4.html">Dufourspitze</a>
+</div>
+
+<br><br>
+
+<h4 style="text-align:center; font-family:sans-serif; font-style:italic; color:darkolivegreen;">
+Érdekességek Európa legmagasabb csúcsairól
+</h4>
+
+A Mont Elbrusz a Kaukázusban található, és 5642 méteres magasságával magasabb a Mont Blanc-nál. Két fő csúcsa van, amelyek közül a keleti csúcs valamivel alacsonyabb. A hegyet hó és jég borítja.
+
+<br><br>
+
+A Mont Blanc az Alpok legismertebb csúcsa, magassága körülbelül 4808 méter. A hegy a francia–olasz határvidéken található. Környéke népszerű a hegymászók, túrázók és síelők körében.
+
+<br><br>
+
+A Dufourspitze Svájc legmagasabb pontja, 4634 méter magas. A Monte Rosa-hegységben található, a svájci–olasz határ közelében.
+
+<br><br>
+
+Az Alpokban több 4000 méter feletti hegycsúcs található. Ezek főként Svájc, Olaszország és Franciaország területén helyezkednek el.
+
+<br><br>
+
+A magashegységekben a hőmérséklet a magassággal csökken, ezért a legmagasabb csúcsokon gyakran egész évben hó és jég található.
+
+<br><br>
+
+A hegyek fontos szerepet játszanak a vízkörforgásban, mivel sok folyó forrásvidéke a magashegységekben található.
+
+<br><br>
+
+A hegyvidékek élővilága is különleges. A magasság növekedésével változik a növényzet.
+
+<br><br>
+
+A magas hegyek fontos szerepet töltenek be a turizmusban is.
+
+<br><br>
+
+A hegyek nemcsak természeti értékek, hanem földrajzi határok is lehetnek.
+
+<br><br>
+
+<footer style="text-align:center;">Bartus Ábel</footer>
+
+<a href="#" style="position:fixed; bottom:20px; right:20px; background-color:darkolivegreen; color:white; padding:12px; border-radius:10px;">↑ Top</a>
+
+</body>
 </html>
-         
-
-<footer>Bartus Ábel</footer>
